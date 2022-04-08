@@ -1,0 +1,10 @@
+:host{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+}
+.card{
+    margin-left: 1rem;
+    margin-bottom:1rem;
+}
+    

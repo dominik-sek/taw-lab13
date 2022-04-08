@@ -1,0 +1,19 @@
+:host(){
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+img {
+    width: 50%;
+    height: auto;
+}
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    padding:5rem;
+}
+a {
+    align-self: flex-start;
+}

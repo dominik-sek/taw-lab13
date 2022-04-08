@@ -1,0 +1,5 @@
+<div style="width:18rem;" class="card" *ngFor="let item of items$ | filterText:filterText">
+    
+            <blog-item [image]="item.image" [text]="item.text" [id]="item.id">
+            </blog-item>      
+</div>
